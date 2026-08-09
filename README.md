@@ -1,19 +1,17 @@
-# LK's Car Repairs Website V3
+# LK's Car Repairs Website V4
 
-This version fixes the previous design issues:
-- Full logo display
-- No fake CSS car
-- No mention of Vauxhall Vivaro
-- Cleaner hero layout using LK's supplied branding
-- Better mobile mechanic section
-- Responsive mobile layout
-- Quote form, phone links and directions
+This version fixes desktop fit and scaling:
+- Hero content is constrained to a centred max-width
+- Headline reduced and given more width
+- Branding image no longer overflows the right side
+- Header logo is displayed more cleanly
+- Better spacing on large desktop screens
+- Mobile layout remains responsive
 
-## Upload
-Upload these files to the ROOT of your GitHub repository and replace the old versions:
+Upload these files to the ROOT of the GitHub repository:
 - index.html
 - styles.css
 - script.js
 - assets/
 
-Keep your existing CNAME file.
+Keep the existing CNAME file.
