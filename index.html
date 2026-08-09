@@ -2,96 +2,185 @@
 <html lang="en-GB">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>LK's Car Repairs | Garage & Mobile Mechanic Canterbury, Kent</title>
-  <meta name="description" content="LK's Car Repairs provides garage and mobile mechanic services in Canterbury and across Kent, including servicing, brakes, clutches, cambelts, diagnostics, DPF work, welding, tyres and recovery.">
-  <meta name="theme-color" content="#0b0b0b">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LK's Car Repairs | Garage & Mobile Mechanic Canterbury</title>
+  <meta name="description" content="LK's Car Repairs offers garage and mobile mechanic services in Canterbury and across Kent, including servicing, diagnostics, brakes, clutches, cambelts, welding, DPF work, tyres, suspension, engine repairs and recovery.">
+  <meta name="theme-color" content="#080808">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header class="site-header">
-  <a class="brand" href="#home" aria-label="LK's Car Repairs home">
-    <img src="images/lks-logo.png" alt="LK's Car Repairs">
+
+<header class="topbar">
+  <a href="#home" class="brand">
+    <img src="assets/lks-logo.jpg" alt="LK's Car Repairs logo">
   </a>
-  <nav>
-    <a href="#services">Services</a><a href="#mobile">Mobile</a><a href="#about">About</a><a href="#contact">Contact</a>
+
+  <button id="menuBtn" class="menu-btn" aria-label="Open menu">☰</button>
+
+  <nav id="nav">
+    <a href="#services">Services</a>
+    <a href="#mobile">Mobile</a>
+    <a href="#about">Why Us</a>
+    <a href="#quote">Quote</a>
+    <a href="#contact">Contact</a>
   </nav>
-  <a class="btn small" href="tel:07380575851">Call 07380 575851</a>
+
+  <a href="tel:07380575851" class="phone-cta">Call 07380 575851</a>
 </header>
 
 <main id="home">
+
 <section class="hero">
-  <div class="hero-inner">
+  <div class="hero-copy">
     <p class="eyebrow">Garage & Fully Mobile Mechanic • Canterbury & Kent</p>
     <h1>All your vehicle needs.<br><span>One local garage.</span></h1>
-    <p class="lead">From routine servicing and brakes to clutches, cambelts, diagnostics, welding and larger mechanical repairs — LK's Car Repairs has you covered.</p>
-    <div class="actions"><a class="btn" href="#quote">Get a quote</a><a class="btn outline" href="tel:07380575851">Call us</a></div>
+    <p class="lead">Servicing, diagnostics, brakes, clutches, cambelts, welding, DPF work, suspension, tyres, engine repairs and recovery.</p>
+
+    <div class="actions">
+      <a class="btn primary" href="#quote">Get a free quote</a>
+      <a class="btn secondary" href="tel:07380575851">Call now</a>
+    </div>
+
+    <div class="hero-points">
+      <span>✓ Garage & mobile</span>
+      <span>✓ All makes & models</span>
+      <span>✓ Canterbury based</span>
+    </div>
+  </div>
+
+  <div class="hero-brand">
+    <img src="assets/lks-brand-art.jpg" alt="LK's Car Repairs branding">
   </div>
 </section>
 
-<section class="trust">
-  <div>🔧 Garage & Mobile</div><div>🚗 All Makes & Models</div><div>✓ Honest Advice</div><div>🏥 10% NHS Discount*</div>
+<section class="trust-strip">
+  <div><strong>Garage & Mobile</strong><span>Flexible repair options</span></div>
+  <div><strong>All Makes & Models</strong><span>Cars & light commercials</span></div>
+  <div><strong>Honest Advice</strong><span>Clear explanations & quotes</span></div>
+  <div><strong>10% NHS Discount*</strong><span>Kent NHS workers</span></div>
 </section>
 
 <section class="section" id="services">
-  <p class="eyebrow">What we do</p><h2>Our Services</h2>
-  <div class="grid">
-    <article><b>💻</b><h3>Diagnostics</h3><p>Warning lights, fault finding, live data and electrical diagnostics.</p></article>
-    <article><b>🛢️</b><h3>Servicing</h3><p>Interim, full and major servicing for all makes and models.</p></article>
-    <article><b>🛑</b><h3>Brakes</h3><p>Pads, discs, calipers, brake pipes and general brake repairs.</p></article>
-    <article><b>⚙️</b><h3>Clutches</h3><p>Clutch kits, dual-mass flywheels and associated repairs.</p></article>
-    <article><b>⏱️</b><h3>Cambelts</h3><p>Timing belts, water pumps and scheduled replacement.</p></article>
-    <article><b>💨</b><h3>Exhausts & DPF</h3><p>Exhaust repairs, DPF diagnostics, cleaning and replacement.</p></article>
-    <article><b>🔥</b><h3>Welding</h3><p>MOT welding, corrosion repair and automotive welding work.</p></article>
-    <article><b>🛞</b><h3>Tyres & Suspension</h3><p>Tyres, springs, shocks, arms, bushes and suspension repairs.</p></article>
-    <article><b>🔩</b><h3>Engine Repairs</h3><p>Cooling systems, leaks and more involved mechanical repairs.</p></article>
-    <article><b>🚚</b><h3>Recovery</h3><p>Vehicle recovery and transport — contact us for availability.</p></article>
+  <div class="section-head">
+    <div>
+      <p class="eyebrow">What we do</p>
+      <h2>Mechanical repairs & maintenance</h2>
+    </div>
+    <p>Routine servicing through to larger repairs, with garage and mobile options depending on the job.</p>
+  </div>
+
+  <div class="service-grid">
+    <article><div class="icon">💻</div><h3>Diagnostics</h3><p>Warning lights, live data, electrical fault finding and diagnostic checks.</p></article>
+    <article><div class="icon">🛢️</div><h3>Servicing</h3><p>Interim, full and major servicing with oils, filters and routine checks.</p></article>
+    <article><div class="icon">🛑</div><h3>Brakes</h3><p>Pads, discs, calipers, brake pipes and complete braking system repairs.</p></article>
+    <article><div class="icon">⚙️</div><h3>Clutches</h3><p>Clutch kits, dual-mass flywheels and associated repairs.</p></article>
+    <article><div class="icon">⏱️</div><h3>Cambelts</h3><p>Timing belt kits, water pumps and scheduled replacement work.</p></article>
+    <article><div class="icon">💨</div><h3>DPF & Exhausts</h3><p>DPF diagnostics and cleaning, exhaust repairs and replacement.</p></article>
+    <article><div class="icon">🔥</div><h3>Welding</h3><p>MOT welding, corrosion repair and general automotive welding.</p></article>
+    <article><div class="icon">🛞</div><h3>Tyres & Suspension</h3><p>Tyres, springs, shocks, arms, bushes, bearings and suspension faults.</p></article>
+    <article><div class="icon">🔩</div><h3>Engine Repairs</h3><p>Cooling systems, oil leaks, ancillary parts and larger mechanical repairs.</p></article>
+    <article><div class="icon">🚚</div><h3>Recovery</h3><p>Vehicle recovery and transport. Contact us for current availability.</p></article>
   </div>
 </section>
 
-<section class="split section" id="mobile">
+<section class="mobile-section" id="mobile">
   <div>
-    <p class="eyebrow">Flexible repairs</p><h2>We come to you — or come to us.</h2>
-    <p>Many jobs can be carried out at your home or workplace. Larger repairs can be completed at our Canterbury workshop.</p>
-    <a class="btn" href="#quote">Request a quote</a>
+    <p class="eyebrow">We come to you</p>
+    <h2>Mobile mechanic service across Canterbury & surrounding Kent</h2>
+    <p>Many repairs can be completed at your home or workplace. For larger jobs, your vehicle can be brought to our Canterbury workshop.</p>
+    <div class="checks">
+      <span>✓ Home & workplace visits</span>
+      <span>✓ Diagnostics and mechanical repairs</span>
+      <span>✓ Workshop available for larger jobs</span>
+    </div>
+    <a href="#quote" class="btn primary">Request mobile repair</a>
   </div>
-  <div class="van-card">
-    <div class="van">🚐</div>
-    <strong>Mobile mechanic coverage across Canterbury & surrounding Kent areas</strong>
-    <p>Our mobile service vehicle is a yellow Vauxhall Vivaro.</p>
+
+  <div class="mobile-visual">
+    <div class="road"></div>
+    <div class="service-card-big">
+      <span class="mini">LK'S CAR REPAIRS</span>
+      <strong>Garage & Fully Mobile</strong>
+      <p>Serving Canterbury and surrounding areas of Kent.</p>
+    </div>
   </div>
 </section>
 
 <section class="nhs">
-  <div><span>10%</span><strong>OFF FOR KENT NHS WORKERS</strong><small>*Proof of NHS employment required. Ask us for applicable terms.</small></div>
+  <div class="percent">10%</div>
+  <div>
+    <strong>Off for Kent NHS workers</strong>
+    <p>Proof of NHS employment required. Terms apply.</p>
+  </div>
 </section>
 
-<section class="section" id="about">
-  <p class="eyebrow">Why LK's?</p><h2>Local repairs without the runaround.</h2>
-  <p class="wide">Straightforward advice, competitive pricing and a broad range of mechanical work. We aim to repair what needs repairing and explain the job clearly before work goes ahead.</p>
+<section class="section why" id="about">
+  <p class="eyebrow">Why choose LK's?</p>
+  <h2>Local repairs without the runaround.</h2>
+
+  <div class="why-grid">
+    <article><span>01</span><h3>Straightforward advice</h3><p>We explain what needs doing and why, without unnecessary jargon.</p></article>
+    <article><span>02</span><h3>Competitive pricing</h3><p>Clear quotes and sensible repair options wherever possible.</p></article>
+    <article><span>03</span><h3>Wide range of work</h3><p>Servicing, clutches, cambelts, welding, diagnostics and much more.</p></article>
+    <article><span>04</span><h3>Garage + mobile</h3><p>Choose the workshop or ask whether your repair can be carried out at your location.</p></article>
+  </div>
 </section>
 
-<section class="section quote" id="quote">
-  <p class="eyebrow">Need a repair?</p><h2>Get a free quote</h2>
-  <p>For now, this form opens an email with your details ready to send. We'll upgrade it later if you want automatic online submissions.</p>
+<section class="quote-section" id="quote">
+  <div class="quote-copy">
+    <p class="eyebrow">Need a repair?</p>
+    <h2>Get a free quote</h2>
+    <p>Send us your vehicle details and a short description of the work required.</p>
+    <div class="contact-chips">
+      <a href="tel:07380575851">📞 07380 575851</a>
+      <a href="mailto:lks.autoservice123@gmail.com">✉️ Email us</a>
+    </div>
+  </div>
+
   <form id="quoteForm">
     <label>Name<input name="name" required></label>
     <label>Phone number<input name="phone" type="tel" required></label>
-    <label>Vehicle registration<input name="reg" required></label>
+    <label>Registration<input name="reg" required></label>
     <label>Make & model<input name="car"></label>
     <label>Postcode<input name="postcode"></label>
-    <label>Garage or mobile?<select name="type"><option>Garage</option><option>Mobile</option><option>Not sure</option></select></label>
-    <label class="full">What work do you need?<textarea name="message" rows="5" required></textarea></label>
-    <button class="btn" type="submit">Request quote</button>
+    <label>Garage or mobile?
+      <select name="type">
+        <option>Garage</option>
+        <option>Mobile</option>
+        <option>Not sure</option>
+      </select>
+    </label>
+    <label class="full">What work do you need?
+      <textarea name="message" rows="5" required placeholder="Tell us what is wrong or what work you need..."></textarea>
+    </label>
+    <button class="btn primary" type="submit">Request quote</button>
   </form>
 </section>
+
 </main>
 
 <footer id="contact">
-  <div><h2>LK'S CAR REPAIRS</h2><p>Garage & Fully Mobile Mechanic</p></div>
-  <div><strong>Contact</strong><a href="tel:07380575851">07380 575851</a><a href="mailto:lks.autoservice123@gmail.com">lks.autoservice123@gmail.com</a></div>
-  <div><strong>Workshop</strong><p>Unit 17, Wingham Industrial Estate<br>Goodnestone Road<br>Canterbury CT3 1AR</p></div>
+  <div class="footer-brand">
+    <img src="assets/lks-logo.jpg" alt="LK's Car Repairs">
+    <p>Garage & fully mobile mechanic serving Canterbury and surrounding areas of Kent.</p>
+  </div>
+  <div>
+    <h4>Contact</h4>
+    <a href="tel:07380575851">07380 575851</a>
+    <a href="mailto:lks.autoservice123@gmail.com">lks.autoservice123@gmail.com</a>
+  </div>
+  <div>
+    <h4>Workshop</h4>
+    <p>Unit 17, Wingham Industrial Estate<br>Goodnestone Road<br>Canterbury CT3 1AR</p>
+    <a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Unit+17+Wingham+Industrial+Estate+Goodnestone+Road+Canterbury+CT3+1AR">Get directions ↗</a>
+  </div>
 </footer>
+
+<div class="mobile-bar">
+  <a href="tel:07380575851">📞 Call</a>
+  <a href="#quote">Get Quote</a>
+</div>
+
 <script src="script.js"></script>
 </body>
 </html>

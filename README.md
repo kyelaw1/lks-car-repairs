@@ -1,22 +1,19 @@
-# LK's Car Repairs Website
+# LK's Car Repairs Website V3
 
-Official static website for LK's Car Repairs — garage and fully mobile mechanic services in Canterbury, Kent.
+This version fixes the previous design issues:
+- Full logo display
+- No fake CSS car
+- No mention of Vauxhall Vivaro
+- Cleaner hero layout using LK's supplied branding
+- Better mobile mechanic section
+- Responsive mobile layout
+- Quote form, phone links and directions
 
-## GitHub Pages
-Upload these files to the root of the `lks-car-repairs` repository.
+## Upload
+Upload these files to the ROOT of your GitHub repository and replace the old versions:
+- index.html
+- styles.css
+- script.js
+- assets/
 
-Then open:
-**Settings → Pages → Build and deployment → Deploy from a branch → `main` → `/ (root)` → Save**
-
-## Custom domain
-Once GitHub Pages is working, set the custom domain to:
-
-`lkscarrepairs.co.uk`
-
-The DNS records will be configured with the company that manages the domain.
-
-## Editing
-- `index.html` — website text/content
-- `styles.css` — colours/layout
-- `script.js` — quote form behaviour
-- `images/` — website images
+Keep your existing CNAME file.
