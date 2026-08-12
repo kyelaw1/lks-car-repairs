@@ -8,3 +8,5 @@ Upload index.html, styles.css, script.js and assets/ to the ROOT of the GitHub r
 Keep the existing CNAME file unchanged.
 
 V8: Added Coming Soon labels beneath Tyres and Recovery.
+
+V10: Preserved the existing V8 design; only merged Brakes + Suspension and made Tyres a standalone Coming Soon service.
