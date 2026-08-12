@@ -6,3 +6,5 @@ The two reviews that were truncated in the supplied Google screenshots remain vi
 
 Upload index.html, styles.css, script.js and assets/ to the ROOT of the GitHub repository.
 Keep the existing CNAME file unchanged.
+
+V8: Added Coming Soon labels beneath Tyres and Recovery.
