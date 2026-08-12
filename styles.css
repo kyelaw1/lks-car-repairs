@@ -220,3 +220,10 @@ footer a{display:block;margin-top:8px;color:#ddd}
   .trust-panel strong{font-size:1.12rem}
   .premium-actions{grid-template-columns:1fr}
 }
+
+/* V7 genuine Google review cards */
+.premium-reviews{grid-template-columns:repeat(3,1fr)!important}
+.premium-card{display:flex;flex-direction:column}
+.premium-card>p{flex:1}
+@media(max-width:1100px){.premium-reviews{grid-template-columns:repeat(2,1fr)!important}}
+@media(max-width:720px){.premium-reviews{grid-template-columns:1fr!important}}

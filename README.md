@@ -1,17 +1,8 @@
-# LK's Car Repairs Website V6
+# LK's Car Repairs Website V7
 
-V6 upgrades the Google Reviews section into a premium rounded/bubble design that matches the black-and-orange website.
+V7 replaces the placeholder review cards with six genuine Google reviews supplied by LK's Car Repairs.
 
-It includes:
-- Large rounded Google Reviews summary box
-- Multicolour Google wordmark styling
-- Orange 5-star rating display
-- Customer trust panel
-- Three premium review cards
-- Large Google review buttons
-- Responsive mobile styling
-
-The review text remains placeholder content until genuine Google review screenshots are supplied.
+The two reviews that were truncated in the supplied Google screenshots remain visibly truncated; no missing wording has been invented.
 
 Upload index.html, styles.css, script.js and assets/ to the ROOT of the GitHub repository.
 Keep the existing CNAME file unchanged.
