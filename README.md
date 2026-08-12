@@ -1,17 +1,8 @@
-# LK's Car Repairs Website V4
+# LK's Car Repairs Website V5
 
-This version fixes desktop fit and scaling:
-- Hero content is constrained to a centred max-width
-- Headline reduced and given more width
-- Branding image no longer overflows the right side
-- Header logo is displayed more cleanly
-- Better spacing on large desktop screens
-- Mobile layout remains responsive
+V5 adds a Google Reviews section matching the black/orange LK's design.
 
-Upload these files to the ROOT of the GitHub repository:
-- index.html
-- styles.css
-- script.js
-- assets/
+Upload the contents to the ROOT of the GitHub repository and replace the old files.
+Keep the existing CNAME file unchanged.
 
-Keep the existing CNAME file.
+The review cards are placeholders until genuine Google review screenshots/text are supplied, so no customer quotes are invented.
